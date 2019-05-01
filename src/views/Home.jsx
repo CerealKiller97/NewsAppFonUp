@@ -8,25 +8,23 @@ import Loading from '../components/Loading';
 
 const Home = () => {
   const [articles, setArticles] = useState([])
-  
+
   const fetchData = async () => {
     const res = await http.get('/news')
     setArticles(res.data.results)
   }
-  
+
   useEffect(() => {
     fetchData()
   }, [])
 
-  const listNews = articles.map(article => <NewsCard article={article} key={article.id} />)
+  const newsList = articles.map(article => <NewsCard article={article} key={article.id} />)
 
   return (
     <>
-      <Search />
+      <Search articles={articles} />
       {
-        articles.length 
-          ? listNews
-          : <Loading />
+        articles.length ? newsList : <Loading />
       }
     </>
   )

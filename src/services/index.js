@@ -3,7 +3,8 @@ import axios from 'axios'
 const options = {
   baseURL: process.env.REACT_APP_API_ENDPOINT,
   headers: {
-    'content-type': 'application/json'
+    'content-type': 'application/json',
+    accept: 'application/json'
   }
 }
 

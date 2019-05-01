@@ -10,7 +10,7 @@ import {
 
 const Header = () => {
   return (
-    <div>
+    <>
       <Navbar color="danger" dark expand="md">
         <NavbarBrand tag={Link} to="/">News App</NavbarBrand>
         <Nav navbar className="ml-auto">
@@ -28,7 +28,7 @@ const Header = () => {
           </NavItem>
         </Nav>
       </Navbar>
-    </div>
+    </>
   )
 }
 

@@ -1,3 +1,9 @@
 # NewsApp
 
-Application built on FonUp event
+Simple Application built on FonUp event (workshop)
+
+Featuring:
+
+```React```
+```React hooks```
+```Reactstrap```
