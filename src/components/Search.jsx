@@ -16,7 +16,7 @@ const Search = () => {
           <Input 
             type="text"
             name="term"
-            onInput={e => setTerm(e.target.value)}
+            onChange={e => setTerm(e.target.value)}
           />
         </FormGroup>
       </Form>

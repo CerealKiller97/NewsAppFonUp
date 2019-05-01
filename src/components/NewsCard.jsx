@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 import {
   Card,
@@ -10,7 +11,7 @@ import {
 } from 'reactstrap'
 
 const NewsCard = props => {
-  const { id, author, title, urlToImage, publishedAt } = props.article
+  const { id, title, urlToImage } = props.article
   return (
     <>
       <Card className="my-4">
@@ -22,7 +23,10 @@ const NewsCard = props => {
         />
         <CardBody>
           <CardTitle>{title}</CardTitle>
-          <Button color="danger">Read More</Button>
+          <Button 
+            color="danger"
+            tag={Link}
+            to={`/article/${id}`}>Read More</Button>
         </CardBody>
       </Card>
     </>

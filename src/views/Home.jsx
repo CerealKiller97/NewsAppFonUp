@@ -3,15 +3,19 @@ import React, { useState, useEffect } from 'react'
 import Search from '../components/Search'
 import NewsCard from '../components/NewsCard'
 
-import axios from 'axios'
+import http from '../services';
+import Loading from '../components/Loading';
 
 const Home = () => {
   const [articles, setArticles] = useState([])
-
+  
+  const fetchData = async () => {
+    const res = await http.get('/news')
+    setArticles(res.data.results)
+  }
+  
   useEffect(() => {
-    axios.get('https://mysterious-savannah-50993.herokuapp.com/news')
-      .then(res => setArticles(res.data.results))
-      .catch(err => console.error(err))
+    fetchData()
   }, [])
 
   const listNews = articles.map(article => <NewsCard article={article} key={article.id} />)
@@ -21,12 +25,11 @@ const Home = () => {
       <Search />
       {
         articles.length 
-        ? listNews
-        : 'No articles'
+          ? listNews
+          : <Loading />
       }
     </>
   )
 }
-
 
 export default Home

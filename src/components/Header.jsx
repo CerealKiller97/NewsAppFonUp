@@ -12,13 +12,19 @@ const Header = () => {
   return (
     <div>
       <Navbar color="danger" dark expand="md">
-        <NavbarBrand href="/">News App</NavbarBrand>
+        <NavbarBrand tag={Link} to="/">News App</NavbarBrand>
         <Nav navbar className="ml-auto">
           <NavItem>
-            <NavLink href="/home">Home</NavLink>
+            <NavLink 
+              tag={Link}
+              to="/home"
+            >Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/about">About</NavLink>
+            <NavLink
+              tag={Link}
+              to="/about"
+            >About</NavLink>
           </NavItem>
         </Nav>
       </Navbar>
