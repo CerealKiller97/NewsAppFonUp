@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.e7a8e308.chunk.css",
-  "main.js": "/static/js/main.9335af9d.chunk.js",
-  "main.js.map": "/static/js/main.9335af9d.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/css/2.4eb9609c.chunk.css": "/static/css/2.4eb9609c.chunk.css",
-  "static/js/2.50504ace.chunk.js": "/static/js/2.50504ace.chunk.js",
-  "static/js/2.50504ace.chunk.js.map": "/static/js/2.50504ace.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.1d2b30cf1fce6b4e1bb15b2c610d4fe9.js": "/precache-manifest.1d2b30cf1fce6b4e1bb15b2c610d4fe9.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/2.4eb9609c.chunk.css.map": "/static/css/2.4eb9609c.chunk.css.map",
-  "static/css/main.e7a8e308.chunk.css.map": "/static/css/main.e7a8e308.chunk.css.map"
+  "main.css": "/NewsAppFonUp/static/css/main.e7a8e308.chunk.css",
+  "main.js": "/NewsAppFonUp/static/js/main.36407b4a.chunk.js",
+  "main.js.map": "/NewsAppFonUp/static/js/main.36407b4a.chunk.js.map",
+  "runtime~main.js": "/NewsAppFonUp/static/js/runtime~main.0e575852.js",
+  "runtime~main.js.map": "/NewsAppFonUp/static/js/runtime~main.0e575852.js.map",
+  "static/css/2.4eb9609c.chunk.css": "/NewsAppFonUp/static/css/2.4eb9609c.chunk.css",
+  "static/js/2.50504ace.chunk.js": "/NewsAppFonUp/static/js/2.50504ace.chunk.js",
+  "static/js/2.50504ace.chunk.js.map": "/NewsAppFonUp/static/js/2.50504ace.chunk.js.map",
+  "index.html": "/NewsAppFonUp/index.html",
+  "precache-manifest.6a04a3965a5ded91e0befe55fda99a21.js": "/NewsAppFonUp/precache-manifest.6a04a3965a5ded91e0befe55fda99a21.js",
+  "service-worker.js": "/NewsAppFonUp/service-worker.js",
+  "static/css/2.4eb9609c.chunk.css.map": "/NewsAppFonUp/static/css/2.4eb9609c.chunk.css.map",
+  "static/css/main.e7a8e308.chunk.css.map": "/NewsAppFonUp/static/css/main.e7a8e308.chunk.css.map"
 }
